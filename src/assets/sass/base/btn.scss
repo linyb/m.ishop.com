@@ -1,0 +1,21 @@
+.u-exam-btn {
+  width: 100%;
+  height: 48px;
+  margin: 0 auto;
+  .btn {
+    display: block;
+    background-color: $c-f-mark;
+    box-shadow: 0 4px 0 #d14444;
+    border-radius: 48px;
+    font-size: 18px;
+    color: $c-f-white;
+    text-align: center;
+    line-height: 48px;
+    max-width: 270px;
+    margin: 0 auto;
+    &.z-disable {
+      background-color: $c-gray;
+      box-shadow: 0 4px 0 #b9b9b9;
+    }
+  }
+}

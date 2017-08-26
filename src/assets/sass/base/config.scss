@@ -1,0 +1,88 @@
+//宽度定义
+$w-body-max: 768px;
+$w-body-min: 320px;
+
+$w-grid-l-width: 68px;
+$w-grid-l-space: 30px;
+$w-main-l-max: ($w-grid-l-width+$w-grid-l-space)*12+$w-grid-l-space;
+
+$w-grid-width: 72px;
+$w-grid-space: 20px;
+$w-main-max: ($w-grid-width+$w-grid-space)*12+$w-grid-space;
+
+$w-main-s-max: 768px;
+$w-grid-s-space: 12px;
+$w-main-p-max: 640px;
+$w-grid-p-space: 8px;
+
+//高度定义
+$h-nav-top: 46px;
+$h-s: 24px;
+$h-m: 30px;
+$h-l: 42px;
+$h-xl: 50px;
+
+//颜色定义
+$c-main: #4092F4;
+$c-main-hover: lighten($c-main, 5%);
+$c-main-active: darken($c-main, 5%);
+$c-main-shadow: rgba($c-main, 0.7);
+$c-main-disabled: #f90;
+$c-aid: #3eaca8;
+$c-aid-hover: lighten($c-aid, 5%);
+$c-aid-active: darken($c-aid, 5%);
+$c-aid-shadow: rgba($c-aid, 0.7);
+$c-fail: #ccc;
+$c-gray: #ccc;
+$c-gray-hover: lighten($c-gray, 5%);
+$c-gray-active: darken($c-gray, 5%);
+$c-gray-shadow: rgba($c-gray, 0.7);
+
+$c-info: #5995d5;
+$c-error: #FF7D0A;
+$c-success: #39a62d;
+$c-warn: #f8e5d3;
+
+$c-link: #0ab9f5;
+
+$c-f: #5D5954;
+$c-light-gray: #acacac;
+$c-f-title: #333;
+$c-f-aid: #a39e9e;
+$c-f-white: #fff;
+$c-f-gray: #939393;
+$c-f-warn: #ff8700;
+$c-f-mark:#f26868;
+
+$c-bg-main: #1e1e22;
+$c-bg-aid: #0c4458;
+$c-bg-white: #fff;
+$c-bg-gray: #f6f6f6;
+$c-bg-grayish: #EFF2F7;
+$c-bg-input: #efefef;
+
+$c-rim-main: lighten($c-main, 15%);
+$c-rim-aid: lighten($c-aid, 15%);
+$c-rim-gray: #d8d8d8;
+$c-rim-black: #666;
+
+$c-nav-circle: #35495e;
+$c-gap-gray: #f3f4f5;
+$c-font-title: #a39e9e;
+$c-list-bg-left: #e84a5f;
+$c-list-bg-right: #1e1e22;
+$c-article-card-bg: #f5f5f5;
+
+//动画效果
+$bezier: cubic-bezier(.46, .01, .55, 1);
+
+//@mixin opacity($opacity:0.5) {
+//  opacity: $opacity;
+//  filter: alpha(opacity=($opacity*100));
+//}
+
+//@mixin bgRGBA($r,$g,$b,$a) {
+//  $ieRGBA: "progid:DXImageTransform.Microsoft.gradient"+"("+startColorstr=ie-hex-str(rgba($r,$g,$b,$a)), endColorstr=ie-hex-str(rgba($r,$g,$b,$a))+')';
+//  background: rgba($r, $g, $b, $a);
+//  filter: unquote($ieRGBA);
+//}

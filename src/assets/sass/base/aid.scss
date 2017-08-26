@@ -1,0 +1,30 @@
+@import "config";
+
+.f-bg-filter {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(10px);
+  //filter: url(/static/img/blur.svg#blur);
+}
+
+.f-line-ell {
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.f-clear:after {
+  content: " ";
+  display: block;
+  clear: both;
+  height: 0;
+}
+.f-clear {
+  zoom: 1;
+}

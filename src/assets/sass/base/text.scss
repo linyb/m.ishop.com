@@ -1,0 +1,44 @@
+@import "config";
+
+::-moz-selection {
+  background: $c-main;
+  color: $c-f-white
+}
+
+::selection {
+  background: $c-main;
+  color: $c-f-white
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+  color: $c-f-title;
+}
+
+h1, h2, h3 {
+  font-weight: 300;
+}
+
+h4, h5, h6 {
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 14px;
+}
+
+h5, h6 {
+  font-size: 12px;
+}

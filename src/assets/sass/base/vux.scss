@@ -1,0 +1,47 @@
+@import "config";
+
+.weui-tabbar__icon {
+  svg {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.weui-bar__item_on {
+  svg {
+    fill: $c-main;
+  }
+}
+
+.vux-x-input {
+  svg {
+    width: 20px;
+    height: 20px;
+    display: block;
+    fill: $c-f-aid;
+    margin-right: $w-grid-space/2;
+  }
+}
+
+.weui-actionsheet__menu {
+  overflow: auto;
+  max-height: 400px;
+}
+
+.vux-1px, .vux-1px-t, .vux-1px-b, .vux-1px-tb, .vux-1px-l, .vux-1px-r {
+  &.f-line-ell:before {
+    width: 199%;
+    box-sizing: border-box;
+    display: block;
+  }
+}
+
+#app {
+  .vux-sticky-box, .weui-tabbar {
+    z-index: 999;
+  }
+  .vux-divider {
+    padding: $w-grid-space 0;
+  }
+}
+
